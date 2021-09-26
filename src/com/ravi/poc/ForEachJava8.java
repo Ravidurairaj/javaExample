@@ -24,6 +24,9 @@ public class ForEachJava8 {
 		List<Integer> myList = new ArrayList<Integer>();
 		for(int i=0;i<=10;i++) myList.add(i);
 		
+		
+		myList.forEach(s -> System.out.println(s));
+		
 		myList.forEach(new Consumer<Integer>() {
 
 			@Override
