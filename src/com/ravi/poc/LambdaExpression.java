@@ -43,6 +43,7 @@ interface Sayable{
 	public void sayMyName(String myname);
 }
 
+@FunctionalInterface
 interface Addable{
 	public void addIt(int i,int j);
 }
